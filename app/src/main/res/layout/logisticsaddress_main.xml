@@ -1,0 +1,147 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96px"
+        android:background="@drawable/bg2"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="onClickAuth"
+            android:id="@+id/Return"
+            >
+            <ImageView
+                android:layout_width="18px"
+                android:layout_height="35px"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/arrow_left_icon"/>
+            <TextView
+                android:layout_width="70px"
+                android:layout_height="37px"
+                android:layout_marginTop="27px"
+                android:textSize="35px"
+                android:textColor="@color/white"
+                android:layout_marginLeft="13px"
+                android:text="@string/Return"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/register_main"
+            android:layout_width="136px"
+            android:layout_height="37px"
+            android:layout_marginLeft="176px"
+            android:textSize="35px"
+            android:textColor="@color/white"
+            android:layout_marginTop="27px"
+            android:text="@string/address" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110px"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50px"
+            android:layout_marginLeft="39px"
+            android:background="@drawable/map3"
+            android:layout_marginTop="39px"
+            android:layout_height="50px"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="34px"
+            android:layout_marginLeft="30px"
+            android:background="@drawable/shape"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="54px"
+            android:textSize="28px"
+            android:textColor="#000000"
+
+            android:maxLength="50"
+            android:hint="@string/EMSaddress"
+            android:id="@+id/EMSaddress"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="672px"
+        android:layout_height="1px"
+        android:layout_marginLeft="40px"
+        android:background="#501d1d26"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110px"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50px"
+            android:layout_marginLeft="39px"
+            android:background="@drawable/name"
+            android:layout_marginTop="39px"
+            android:layout_height="50px"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="34px"
+            android:layout_marginLeft="30px"
+            android:textColor="#000000"
+            android:background="@drawable/shape"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="54px"
+            android:textSize="28px"
+            android:maxLength="50"
+            android:hint="@string/Addressee"
+            android:id="@+id/Addressee"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="672px"
+        android:layout_height="1px"
+        android:layout_marginLeft="40px"
+        android:background="#501d1d26"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110px"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50px"
+            android:layout_marginLeft="39px"
+            android:background="@drawable/group5"
+            android:layout_marginTop="39px"
+            android:layout_height="50px"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="34px"
+            android:layout_marginLeft="30px"
+            android:textColor="#000000"
+            android:background="@drawable/shape"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="54px"
+            android:textSize="28px"
+
+            android:maxLength="50"
+            android:hint="@string/Telephone"
+            android:id="@+id/Telephone"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="672px"
+        android:layout_height="1px"
+        android:layout_marginLeft="40px"
+        android:background="#501d1d26"
+        android:orientation="horizontal"/>
+
+</LinearLayout>

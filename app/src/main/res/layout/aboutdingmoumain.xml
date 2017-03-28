@@ -1,0 +1,125 @@
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96px"
+        android:background="@drawable/bg2"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="onClickAuth"
+            android:id="@+id/Return"
+            >
+            <ImageView
+                android:layout_width="18px"
+                android:layout_height="35px"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/arrow_left_icon"/>
+            <TextView
+                android:layout_width="70px"
+                android:layout_height="37px"
+                android:layout_marginTop="27px"
+                android:textSize="35px"
+                android:textColor="@color/white"
+                android:layout_marginLeft="13px"
+                android:text="@string/Return"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/register_main"
+            android:layout_width="136px"
+            android:layout_height="37px"
+            android:layout_marginLeft="176px"
+            android:textSize="35px"
+            android:textColor="@color/white"
+            android:layout_marginTop="27px"
+            android:text="@string/GYDM" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="600px"
+        android:layout_height="100px"
+        android:layout_marginTop="38px"
+        android:layout_marginLeft="78px"
+        android:text="上海鼎谋企业管理咨询有限公司\n
+Shanghai  d-wisdom coulsuting co.,ltd"
+        android:textSize="34px"
+        android:textColor="#1c1c1c"
+        />
+    <TextView
+        android:layout_width="555px"
+        android:layout_height="176px"
+        android:layout_marginTop="31px"
+        android:layout_marginLeft="78px"
+        android:text="通过创新开发管理软件系统，将最新管理思想\n导入到企业的日常运营中，数字化管理企业，\n提高企业的执行力与竞争力，这是本公司的根\n本出发点、最大差异点和最大优势。"
+        android:textSize="26px"
+        android:textColor="#1c1c1c"
+        />
+    <LinearLayout
+        android:layout_width="640px"
+        android:layout_height="243px"
+        android:layout_marginTop="27px"
+        android:layout_marginLeft="55px"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="640px"
+            android:layout_height="1dp"
+            android:background="#aaaaaa"/>
+
+        <TextView
+            android:layout_width="210px"
+            android:layout_height="30px"
+            android:layout_marginTop="32px"
+            android:layout_marginLeft="24px"
+            android:text="公司主要产品："
+            android:textSize="28px"
+            android:textColor="#1c1c1c"
+            />
+        <TextView
+            android:layout_width="275px"
+            android:layout_height="132px"
+            android:layout_marginTop="16px"
+            android:layout_marginLeft="23px"
+            android:text="鼎谋营销管理系统PC版
+鼎谋移动营销管理系统
+DM-SOKE"
+            android:textSize="26px"
+            android:textColor="#1c1c1c"
+            />
+
+        <TextView
+            android:layout_width="640px"
+            android:layout_height="1dp"
+            android:background="#aaaaaa"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="324px"
+        android:layout_height="88px"
+        android:layout_marginTop="27px"
+        android:layout_marginLeft="78px"
+        android:text="联系电话：400-6733-918
+\n客服电话：021-37698309"
+        android:textSize="26px"
+        android:textColor="#1c1c1c"
+        />
+    <TextView
+        android:layout_width="293px"
+        android:layout_height="55px"
+        android:layout_marginTop="408px"
+        android:layout_marginLeft="229px"
+        android:text="Copyright ©2016-2018\n
+上海鼎谋企业管理咨询有限公司"
+        android:textSize="20px"
+        android:textColor="#878787"
+        />
+
+</com.zhy.autolayout.AutoLinearLayout>

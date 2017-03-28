@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical" >
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="640px"
+        android:background="@color/white"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="345px"
+            android:id="@+id/image"
+            android:layout_height="400px"/>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/layout"
+            >
+
+        <TextView
+            android:layout_width="265px"
+            android:layout_marginTop="34px"
+            android:layout_marginLeft="40px"
+            android:id="@+id/legal"
+            android:textSize="24px"
+            android:textColor="#b2b2b2"
+            android:layout_height="37px"/>
+        <TextView
+            android:layout_width="265px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40px"
+            android:layout_marginTop="9px"
+            android:textSize="24px"
+            android:textColor="#000000"
+            android:id="@+id/commodity_name"/>
+        <TextView
+            android:layout_width="265px"
+            android:layout_height="36px"
+            android:id="@+id/integral"
+            android:layout_marginLeft="40px"
+            android:textColor="#000000"
+            android:textSize="24px"
+            android:layout_marginTop="10px"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</LinearLayout>

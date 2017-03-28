@@ -1,0 +1,43 @@
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/CustomDialog"
+    android:background="#61000000"
+    android:orientation="vertical"
+    >
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88px"
+            android:background="#11b42d">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="36px"
+                android:textSize="34px"
+                android:gravity="center"
+                android:id="@+id/title_view"
+                android:layout_marginTop="26px"
+                android:textColor="#ffffff"
+                android:text="联系人"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#00000000"
+            android:scrollbars="none"
+            android:id="@+id/Contacts_list"
+            >
+        </ListView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20px"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+      
+
+</com.zhy.autolayout.AutoLinearLayout>

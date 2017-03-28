@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical" >
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="169px"
+            android:layout_height="32px"
+            android:textStyle="bold"
+            android:layout_marginLeft="30px"
+            android:textSize="32px"
+            android:textColor="#1d1d26"
+            android:layout_marginTop="39px"
+            android:text="@string/about_me"
+            android:id="@+id/date"
+            />
+
+        <TextView
+            android:layout_width="80px"
+            android:layout_height="32px"
+            android:textStyle="bold"
+            android:layout_marginLeft="61px"
+            android:textSize="32px"
+            android:textColor="#1d1d26"
+            android:layout_marginTop="39px"
+            android:id="@+id/period"
+            android:text="@string/about_me" />
+
+        <TextView
+            android:layout_width="120px"
+            android:layout_height="32px"
+            android:textStyle="bold"
+            android:layout_marginLeft="22px"
+            android:textSize="30px"
+            android:textColor="#1d1d26"
+            android:layout_marginTop="39px"
+            android:id="@+id/income"
+            android:text="@string/about_me" />
+        <TextView
+            android:layout_width="120px"
+            android:layout_height="32px"
+            android:textStyle="bold"
+            android:layout_marginLeft="42px"
+            android:textSize="32px"
+            android:textColor="#1d1d26"
+            android:layout_marginTop="39px"
+            android:id="@+id/expenditure"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32px"
+            android:textStyle="bold"
+            android:layout_marginLeft="22px"
+            android:textSize="32px"
+            android:textColor="#1d1d26"
+            android:layout_marginTop="39px"
+            android:id="@+id/thefinal"
+             />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</LinearLayout>

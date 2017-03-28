@@ -1,0 +1,78 @@
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/CustomDialog"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:background="#11b42d">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="42px"
+            android:layout_marginTop="26px"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="提醒"
+            android:textSize="40px"/>
+    </LinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="30px"
+            android:text="请确认您所提交的信息已经填写完整、准确，\n否则系统后台审核可能不通过，不能赠送积分。\n谢谢！"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="34px"
+        android:layout_marginRight="34px"
+        android:background="#301d1d26"/>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40px"
+        android:orientation="horizontal"
+        android:layout_marginRight="30px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="10px"
+        >
+        <TextView
+            android:id="@+id/qx"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="40px"
+            android:text="继续填写" />
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#20000000"/>
+        <TextView
+            android:id="@+id/ok"
+            android:layout_width="0dp"
+            android:textColor="#000000"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:textSize="40px"
+            android:text="立即提交" />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#ffffff"/>
+</com.zhy.autolayout.AutoLinearLayout>
+
+

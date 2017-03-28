@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/fulishuang/Android/DM_SKB/PushSDK/assets"/><source path="/Users/fulishuang/Android/DM_SKB/PushSDK/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/fulishuang/Android/DM_SKB/PushSDK/build-types/debug/assets"/></dataSet></merger>

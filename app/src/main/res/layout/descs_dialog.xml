@@ -1,0 +1,79 @@
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/CustomDialog"
+    android:background="#61000000"
+    android:orientation="vertical"
+    >
+    <!--<TextView
+        android:layout_width="540px"
+        android:layout_height="20px"
+        android:layout_marginLeft="60px"
+        android:background="@drawable/shape_10"
+        />
+    <TextView
+        android:layout_width="600px"
+        android:layout_height="20px"
+        android:layout_marginLeft="30px"
+        android:background="@drawable/shape_10"
+        />-->
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/shape_5">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37px"
+            android:textColor="#000000"
+            android:textSize="35px"
+            android:gravity="center"
+            android:layout_marginTop="23px"
+            android:id="@+id/Title"
+            android:text="温馨提醒"/>
+        <TextView
+            android:layout_width="630px"
+            android:layout_height="30px"
+            android:layout_marginTop="20px"
+            android:text="监测到新版本是否更新"
+            android:gravity="center"
+            android:id="@+id/cemo"
+            android:textColor="#000000"
+            android:textSize="28px"/>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:orientation="horizontal"
+            android:layout_marginRight="30px"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="10px"
+            >
+            <Button
+                android:id="@+id/qx"
+                android:layout_width="0dp"
+                android:background="@drawable/btn5"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:layout_height="90px"
+                android:text="稍后再说" />
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="0dp"
+                android:background="@drawable/btn5"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+
+                android:layout_height="90px"
+                android:text="立即更新" />
+            </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:orientation="horizontal"
+            />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+      
+
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,133 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96px"
+        android:background="@drawable/bg2"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="onClickAuth"
+            android:id="@+id/Return"
+            >
+            <ImageView
+                android:layout_width="18px"
+                android:layout_height="35px"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/arrow_left_icon"/>
+            <TextView
+                android:layout_width="70px"
+                android:layout_height="37px"
+                android:layout_marginTop="27px"
+                android:textSize="35px"
+                android:textColor="@color/white"
+                android:layout_marginLeft="13px"
+                android:text="@string/Return"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/register_main"
+            android:layout_width="216px"
+            android:layout_height="37px"
+            android:layout_marginLeft="170px"
+            android:textSize="35px"
+            android:textColor="@color/white"
+            android:layout_marginTop="27px"
+            android:text="积分兑换" />
+    </LinearLayout>
+
+    <com.example.dm_skb.widget.DropDownMenu
+        android:id="@+id/dropDownMenu"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ddmenuTextSize="13sp"
+        app:ddtextUnselectedColor="@color/drop_down_unselected"
+        app:ddtextSelectedColor="@color/drop_down_selected"
+        app:dddividerColor="@color/gray"
+        app:ddunderlineColor="@color/gray"
+        app:ddmenuSelectedIcon="@mipmap/drop_down_selected_icon"
+        app:ddmaskColor="#ffffff"
+        app:ddmenuBackgroundColor="@color/white"
+        app:ddmenuUnselectedIcon="@mipmap/drop_down_unselected_icon"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+    <com.example.dm_skb.widget.PullToRefreshGridView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_refresh_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30px"
+        android:numColumns="auto_fit"
+        ptr:ptrDrawable="@drawable/pull_down_icon"
+        ptr:ptrAnimationStyle="flip"
+        android:scrollbars="none"
+        ptr:ptrHeaderBackground="@color/white"
+        ptr:ptrHeaderTextColor="#000000"
+        />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout"
+                  android:orientation="horizontal"
+                  android:layout_width="750px"
+                  android:layout_height="98px"
+                  android:background="#80F7F7F7"
+                  android:layout_weight="0">
+        <LinearLayout
+            android:layout_width="335px"
+            android:layout_height="64px"
+            android:orientation="vertical"
+            android:background="@drawable/shape_45"
+            android:id="@+id/dh"
+            android:onClick="onClickAuth"
+            android:layout_marginTop="17px"
+            android:layout_marginLeft="30px">
+
+            <TextView
+                android:layout_width="96px"
+                android:layout_height="26px"
+                android:layout_marginTop="20px"
+                android:layout_marginLeft="120px"
+                android:textSize="24px"
+                android:textColor="#ffffff"
+                android:text="我要兑换"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="335px"
+            android:layout_height="64px"
+            android:orientation="vertical"
+            android:id="@+id/plans"
+            android:onClick="onClickAuth"
+            android:background="@drawable/shape_45"
+            android:layout_marginTop="17px"
+            android:layout_marginLeft="20px">
+
+            <TextView
+                android:layout_width="96px"
+                android:layout_height="26px"
+                android:layout_marginTop="20px"
+                android:layout_marginLeft="120px"
+                android:textSize="24px"
+                android:textColor="#33312f"
+                android:text="兑换历史"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,63 @@
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96px"
+        android:background="@drawable/bg2"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="onClickAuth"
+            android:id="@+id/Return"
+            >
+            <ImageView
+                android:layout_width="18px"
+                android:layout_height="35px"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/arrow_left_icon"/>
+            <TextView
+                android:layout_width="70px"
+                android:layout_height="37px"
+                android:layout_marginTop="27px"
+                android:textSize="35px"
+                android:textColor="@color/white"
+                android:layout_marginLeft="13px"
+                android:text="@string/Return"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/title_view"
+            android:layout_width="284px"
+            android:layout_height="37px"
+            android:layout_marginLeft="102px"
+            android:gravity="center"
+            android:textSize="35px"
+            android:textColor="@color/white"
+            android:layout_marginTop="27px"
+            android:text="" />
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:max="100"
+        android:progress="100"
+        android:layout_marginRight="8dp"
+        android:progressDrawable="@drawable/progressbar"
+        android:visibility="visible"/>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"
+        />
+</com.zhy.autolayout.AutoLinearLayout>

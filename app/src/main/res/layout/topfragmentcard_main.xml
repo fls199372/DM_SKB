@@ -1,0 +1,44 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" 
+        android:layout_weight="1.0" >
+
+        <Button
+            android:id="@+id/button_state1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:singleLine="true"
+            android:tag="Function"
+            android:text="bbb"
+            android:textColor="@color/text_service_color"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+           android:background="@color/white" 
+        android:layout_weight="1.0" >
+
+        <Button
+            android:id="@+id/button_state2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:singleLine="true"
+            android:tag="Daily"
+            android:text="ddd"
+            android:textColor="@color/text_service_color"
+            android:textSize="20sp" />
+    </FrameLayout>
+ 
+    
+  </merge>

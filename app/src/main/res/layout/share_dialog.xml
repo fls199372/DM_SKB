@@ -1,0 +1,130 @@
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#61000000"
+
+    android:orientation="vertical"
+    >
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/wx_layout"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="88px"
+                android:layout_height="88px"
+                android:background="@drawable/weixin3"
+                android:layout_marginLeft="65px"
+                android:layout_marginTop="40px"/>
+            <TextView
+                android:layout_width="102px"
+                android:layout_height="26px"
+                android:textColor="#666666"
+                android:textSize="24px"
+                android:gravity="center"
+                android:layout_marginLeft="58px"
+                android:layout_marginTop="19px"
+                android:text="微信好友"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/QQ_layout"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="87px"
+                android:layout_height="87px"
+                android:background="@drawable/qq3"
+                android:layout_marginLeft="39px"
+                android:layout_marginTop="41px"/>
+            <TextView
+                android:layout_width="91px"
+                android:layout_height="26px"
+                android:textColor="#666666"
+
+                android:textSize="24px"
+                android:layout_marginLeft="36px"
+                android:layout_marginTop="19px"
+                android:gravity="center"
+                android:text="QQ好友"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/wb"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="87px"
+                android:layout_height="87px"
+                android:background="@drawable/sina3"
+                android:layout_marginLeft="47px"
+                android:layout_marginTop="41px"/>
+            <TextView
+                android:layout_width="51px"
+                android:layout_height="26px"
+                android:textColor="#666666"
+                android:textSize="24px"
+                android:layout_marginLeft="62px"
+                android:layout_marginTop="19px"
+                android:gravity="center"
+                android:text="微博"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/space"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="87px"
+                android:layout_height="87px"
+                android:background="@drawable/qzone"
+                android:layout_marginLeft="46px"
+                android:layout_marginTop="41px"/>
+            <TextView
+                android:layout_width="91px"
+                android:layout_height="26px"
+                android:textColor="#666666"
+                android:textSize="24px"
+                android:layout_marginLeft="43px"
+                android:layout_marginTop="19px"
+                android:gravity="center"
+                android:text="QQ空间"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Collection_layout"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="88px"
+                android:layout_height="88px"
+                android:background="@drawable/collect"
+                android:layout_marginLeft="43px"
+                android:layout_marginTop="40px"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="26px"
+                android:textColor="#666666"
+                android:textSize="24px"
+                android:layout_marginLeft="60px"
+                android:layout_marginTop="19px"
+                android:id="@+id/qx"
+                android:gravity="center"
+                android:text="收藏"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+      
+
+</com.zhy.autolayout.AutoLinearLayout>

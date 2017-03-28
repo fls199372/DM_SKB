@@ -1,0 +1,62 @@
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/CustomDialog"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:background="#11b42d">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36px"
+            android:layout_marginTop="26px"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="请添加客户名称"
+            android:textSize="24px"/>
+    </LinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginLeft="35px"
+            android:layout_marginTop="51px"
+            android:background="@drawable/name"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="28px"
+            android:textColor="#1d1d26"
+            android:background="@drawable/shape"
+            android:hint="请添加新客户名称"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="60px"
+            android:textColorHint="#1d1d26"
+            android:textSize="26px"
+            android:id="@+id/fcustname"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:layout_marginLeft="34px"
+        android:layout_marginRight="34px"
+        android:background="#301d1d26"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="360px"
+        android:layout_marginTop="39px"
+        android:background="@drawable/shape_45"
+        android:layout_marginLeft="150px"
+        android:textColor="@color/white"
+        android:layout_height="64px"
+        android:text="确认添加" />
+</com.zhy.autolayout.AutoLinearLayout>
+
+

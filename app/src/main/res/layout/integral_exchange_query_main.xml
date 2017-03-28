@@ -1,0 +1,94 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96px"
+        android:background="@drawable/bg2"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="onClickAuth"
+            android:id="@+id/Return"
+            >
+            <ImageView
+                android:layout_width="18px"
+                android:layout_height="35px"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/arrow_left_icon"/>
+            <TextView
+                android:layout_width="70px"
+                android:layout_height="37px"
+                android:layout_marginTop="27px"
+                android:textSize="35px"
+                android:textColor="@color/white"
+                android:layout_marginLeft="13px"
+                android:text="@string/Return"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/register_main"
+            android:layout_width="216px"
+            android:layout_height="37px"
+            android:layout_marginLeft="136px"
+            android:textSize="35px"
+            android:textColor="@color/white"
+            android:layout_marginTop="27px"
+            android:text="@string/exchange1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99px"
+        android:background="@drawable/bg2"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="60px"
+            android:layout_height="32px"
+            android:layout_marginLeft="106px"
+            android:layout_marginTop="29px"
+            android:textSize="30px"
+            android:textColor="@color/white"
+            android:text="@string/date"/>
+
+        <TextView
+            android:layout_width="120px"
+            android:layout_height="32px"
+            android:layout_marginLeft="150px"
+            android:layout_marginTop="29px"
+            android:textSize="30px"
+            android:textColor="@color/white"
+            android:text="@string/SP"/>
+        <TextView
+            android:layout_width="120px"
+            android:layout_height="32px"
+            android:layout_marginLeft="119px"
+            android:layout_marginTop="29px"
+            android:textSize="30px"
+            android:textColor="@color/white"
+            android:text="@string/HF"/>
+    </LinearLayout>
+
+    <com.example.dm_skb.widget.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_refresh_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ptr:ptrDrawable="@drawable/pull_down_icon"
+        ptr:ptrAnimationStyle="flip"
+        android:scrollbars="none"
+        ptr:ptrHeaderBackground="@color/white"
+        ptr:ptrHeaderTextColor="#000000"
+        />
+
+</LinearLayout>
+

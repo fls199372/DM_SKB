@@ -1,0 +1,102 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" 
+        android:layout_weight="1.0" >
+
+        <Button
+            android:id="@+id/button_state1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/search_customer"
+            android:gravity="center"
+            android:singleLine="true"
+            android:tag="search_customer"
+            android:text="@string/search_customer"
+            android:textColor="@color/text_service_color"
+            android:textSize="20px" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_weight="1.0" >
+
+        <Button
+            android:id="@+id/button_state2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/customer_management"
+            android:gravity="center"
+            android:singleLine="true"
+            android:tag="customer_management"
+            android:text="@string/customer_management"
+            android:textColor="@color/text_service_color"
+            android:textSize="20px"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_weight="1.0">
+        <Button
+            android:id="@+id/button_state5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/earn_points"
+            android:gravity="center"
+            android:singleLine="true"
+            android:tag="earn"
+            android:text="@string/earn_points"
+            android:textColor="@color/text_service_color"
+            android:textSize="20px" />
+    </FrameLayout>
+     <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_weight="1.0">
+        <Button
+            android:id="@+id/button_state3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/share_points"
+            android:gravity="center"
+            android:singleLine="true"
+            android:tag="earn_points"
+            android:text="分享软件"
+            android:textColor="@color/text_service_color"
+            android:textSize="20px"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_weight="1.0">
+        <Button
+            android:id="@+id/button_state4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/about_me"
+            android:gravity="center"
+            android:singleLine="true"
+            android:tag="about_me"
+            android:text="@string/about_me"
+            android:textColor="@color/text_service_color"
+            android:textSize="20px" />
+    </FrameLayout>
+  </merge>

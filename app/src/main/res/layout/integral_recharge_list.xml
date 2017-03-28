@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical" >
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="89px"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <com.example.dm_skb.widget.CircleView
+            android:id="@+id/need"
+            android:layout_width="20px"
+            android:layout_height="20px"
+            android:layout_marginLeft="30px"
+            android:background="@drawable/unchecked"
+            android:layout_marginTop="39px"
+            />
+        <TextView
+            android:layout_width="92px"
+            android:layout_height="32px"
+            android:textStyle="bold"
+            android:layout_marginLeft="60px"
+            android:textSize="32px"
+            android:textColor="#1d1d26"
+            android:layout_marginTop="29px"
+            android:id="@+id/integral"
+            />
+
+        <TextView
+            android:layout_width="98px"
+            android:layout_height="32px"
+            android:textStyle="bold"
+            android:layout_marginLeft="103px"
+            android:textSize="32px"
+            android:gravity="center"
+            android:textColor="#1d1d26"
+            android:layout_marginTop="29px"
+            android:id="@+id/amountOfMoney"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32px"
+            android:textStyle="bold"
+            android:layout_marginLeft="110px"
+            android:textSize="32px"
+            android:textColor="#1d1d26"
+            android:layout_marginTop="29px"
+            android:id="@+id/discount"
+             />
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:layout_marginTop="25px"
+        android:background="#20000000"/>
+</LinearLayout>

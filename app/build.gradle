@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+    defaultConfig {
+        applicationId "com.example.dm_skb"
+        minSdkVersion 12
+        targetSdkVersion 20
+        versionCode 7
+        versionName "1.7"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            resources.srcDirs = ['src/main/java']
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/okhttp-2.4.0.jar')
+    compile files('libs/gson-2.2.1.jar')
+    compile files('libs/okio-1.4.0.jar')
+    compile files('libs/umeng_social_sdk.jar')
+    compile files('libs/mta-sdk-1.6.2.jar')
+    compile files('libs/SocialSDK_Sina.jar')
+    compile files('libs/weiboSDKCore_3.1.4.jar')
+    compile files('libs/SocialSDK_WeiXin_2.jar')
+    compile files('libs/org.apache.http.legacy.jar')
+    compile files('libs/butterknife-4.0.1.jar')
+    compile 'com.zhy:autolayout:1.4.3'
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.android.support:design:23.1.0'
+    compile 'com.github.thinkcool:circletextimageview:1.0.20151218'
+    compile 'com.iarcuschin:simpleratingbar:0.1.3'
+    compile 'com.feezu.liuli:timeselector:1.1.3+'
+    compile files('libs/open_sdk_r5756_lite.jar')
+    compile files('libs/libammsdk.jar')
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/universal-image-loader-1.9.4-with-sources.jar')
+    compile files('libs/thindownloadmanager-1.0.0.jar')
+    compile 'com.baoyz.swipemenulistview:library:1.3.0'
+    compile files('libs/IndoorscapeAlbumPlugin.jar')
+    compile 'com.zcw:togglebutton-library:1.0.0'
+    compile files('libs/360update-5.0.7.jar')
+    compile files('libs/alipaySdk-20161009.jar')
+    compile files('libs/com.umeng.message_v3.0.1.jar')
+    compile files('libs/umeng-analytics-v6.0.3.jar')
+    compile files('libs/Hanvon-SDK-Android-1.0.jar')
+}
